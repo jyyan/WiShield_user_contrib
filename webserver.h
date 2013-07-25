@@ -40,7 +40,7 @@
 typedef struct webserver_state {
 	struct psock p;
 	char inputbuf[10];
-} uip_tcp_appstate_t;
+} ws_uip_tcp_appstate_t;
 
 void webserver_appcall(void);
 #ifndef UIP_APPCALL
