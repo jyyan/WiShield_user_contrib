@@ -69,4 +69,16 @@ typedef unsigned long U32;
 
 typedef uint8_t boolean;
 
+typedef void PROGMEM 	prog_void;
+typedef char PROGMEM 	prog_char;
+typedef unsigned char PROGMEM 	prog_uchar;
+typedef int8_t PROGMEM 	prog_int8_t;
+typedef uint8_t PROGMEM 	prog_uint8_t;
+typedef int16_t PROGMEM 	prog_int16_t;
+typedef uint16_t PROGMEM 	prog_uint16_t;
+typedef int32_t PROGMEM 	prog_int32_t;
+typedef uint32_t PROGMEM 	prog_uint32_t;
+typedef int64_t PROGMEM 	prog_int64_t;
+typedef uint64_t PROGMEM 	prog_uint64_t;
+
 #endif /* WITYPES_H_ */
