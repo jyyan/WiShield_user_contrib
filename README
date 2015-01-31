@@ -6,6 +6,14 @@ www.asynclabs.com
 -------------------------------------------------------------------------------
 Changes:
 - updated to support Ardunino compiler 1.0 (from 0023)
+- updated to support Ardunino compiler 1.0.6 (from 1.0)
+
+Testing Environment:
+- OpenSUSE 13.2
+- java v1.8.0_31 (build 1.8.0_31-b13)
+- arduino-1.0.6
+- avr-libc 1.6.4 (x68—64-linux-gnu)
+- some more referance : [avr-libc](http://www.nongnu.org/avr-libc/user-manual/).
 
 -------------------------------------------------------------------------------
 Version 1.2.0
@@ -23,7 +31,7 @@ Changes:
 
 New features:
 - Adding sample SocketApp sketch to demonstrate using WiShield for socket
-  communication 
+  communication
 - Adding UDPApp sketch to demonstarte use of UDP protocol for communication
 
 Known issues:
